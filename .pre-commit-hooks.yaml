@@ -47,3 +47,10 @@
   entry: pre_commit_hooks/phpstan.sh
   language: script
   files: \.php$
+
+- id: forbiddenwords
+  name: PHP Forbidden Words Preventer
+  description: Avoids the var_dump, die or print_r words to be commited
+  entry: pre_commit_hooks/forbiddenwords.sh
+  language: script
+  files: \.php$
