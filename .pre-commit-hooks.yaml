@@ -44,6 +44,6 @@
 - id: phpstan
   name: PHP Static Analysis Tool
   description: Run PHP static analysis against all staged files. Requires PHP7
-  entry: pre_commit_hooks/php-stan.sh
+  entry: pre_commit_hooks/phpstan.sh
   language: script
   files: \.php$
